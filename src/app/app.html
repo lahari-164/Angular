@@ -1,3 +1,11 @@
-<h1>home</h1>
+<!-- <h1>{{name}}</h1>
+<h2>{{age}}</h2>
+<input [(ngModel)]="name" type="text" placeholder="Enter your name:">
+<button (click)="showMessage()">Click</button> -->
 
-<app-student></app-student>
+@if(showBox){
+    <div></div>
+}
+
+<button (click)="showBoxFn()">Show</button>
+<button (click)="hideBoxFn()">Hid</button>
